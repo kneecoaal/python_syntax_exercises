@@ -4,7 +4,7 @@
 # Make your function more general you should be able to pass in a set of letters and it only prints words that start with the letter 'e' (either uppercase or lowercase)
 
 def print_upper_words(word_list, letters):
-    """prints out a new list of words that are uppercase and start with the set of letters passed in  """
+    """prints out a new list of words that are uppercase and start with the set of letters passed in"""
     uppercase_word_list = []
     letters_string = ''.join(letters)
     for word in word_list:
